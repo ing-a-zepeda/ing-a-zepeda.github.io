@@ -1,0 +1,108 @@
+:root {
+    --bg1color: #434750;
+    --bg2color: #292c31;
+    --text1: #324156;
+    --text2: #75aec2;
+    --text3: #c4cbd5;
+
+  }
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.content1{
+    background-color: var(--bg1color);
+    color: var(--text3);
+}
+.content2{
+    background-color: var(--bg2color);
+    color: var(--text3);
+}
+
+
+.principal{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+.principal2{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+.principal2 a{
+    text-decoration: none;
+    color: var(--text3);
+    font-size: 1.25em;
+    padding: 0 40px;
+}
+
+.fa-envelope{
+    color: var(--text2);
+}
+
+.menu{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li{
+    float: left
+}
+
+.menu li a{
+    display: block;
+    color: var(--text3);
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active){
+    background-color:var(--bg1color);
+}
+
+.active{
+    background-color: var(--text2);
+    color: var(--text1) !important;
+}
+
+
+
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.col-3{
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.icons a{
+    text-decoration: none;
+    color: var(--text3);
+    font-size: 1.25em;
+}
+
+.icons i{
+    padding: 0 20px;
+}
+
+
