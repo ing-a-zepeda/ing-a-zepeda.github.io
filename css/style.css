@@ -8,7 +8,13 @@
   }
 
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    @font-face {
+        font-family: "CustomFont";
+        src: url("other/Anonymous_Pro/AnonymousPro-Regular.ttf");
+        src: url("other/Anonymous_Pro/AnonymousPro-Italic.ttf");
+        src: url("other/Anonymous_Pro/AnonymousPro-Bold.ttf");
+        src: url("other/Anonymous_Pro/AnonymousPro-BoldItalic.ttf");
+    };
 }
 .content1{
     background-color: var(--bg1color);
@@ -22,12 +28,12 @@ body{
 
 .principal{
     float: left;
-    width: 30%;
+    width: 20%;
     padding: 20px;
 }
 .principal2{
     float: left;
-    width: 30%;
+    width: 20%;
     padding: 20px;
 }
 
@@ -44,7 +50,7 @@ body{
 
 .menu{
     float: left;
-    width: 30%;
+    width: 50%;
     padding: 10px;
 }
 
@@ -86,6 +92,12 @@ body{
 .col-3{
     float: left;
     width: 30%;
+    padding: 10px;
+}
+
+.col-2{
+    float: left;
+    width: 45%;
     padding: 10px;
 }
 
